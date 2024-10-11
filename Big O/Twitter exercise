@@ -1,0 +1,18 @@
+//Finst 1st tweet, Find Nth tweet..
+
+const array=['hi', 'teddy', 'my']
+
+array[0]//0(1)
+array[array.length-1]//0(1) --> most resent tweet
+
+
+const array2 = [{
+    tweet: 'ji',
+    year: 2014
+},{
+    tweet: 'blah',
+    year: 2016
+}]
+
+//o(n^2) since we are comparing tweets and hence, use nested loops to iterate over each tweet
+//since this is not efficient for scalability, we try to avoid this Big O

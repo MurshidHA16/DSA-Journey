@@ -1,0 +1,18 @@
+function booooo(n){
+    for (let i=0; i<n.length;i++){
+        console.log('booooooo!')
+    }
+}
+
+booooo([1,2,3,4,5,6]) 
+//Space Complexity: O(1) -->We are not adding any add space
+
+function arrayofHiNTimes(n){
+    let hiArray = [];
+    for (let i=0; i<n.length;i++){
+        hiArray[i]= 'hi';
+    }
+    return hiArray;
+}
+arrayofHiNTimes(6)
+//O(n)--> We are creating additional memory for each input

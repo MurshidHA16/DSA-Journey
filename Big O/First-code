@@ -1,0 +1,15 @@
+const nemo = ['nemo'];
+const large = new Array(100).fill('nemo');
+
+function findNemo(array){
+    for (let i=0; i< array.length; i++){
+        if (array[i]==='nemo'){
+            console.log('Found Nemo!');
+            break //won't loop through rest of the array
+        }
+    }
+}
+
+findNemo(large)
+
+//It has a big 0 notation of O(n)

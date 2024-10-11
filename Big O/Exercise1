@@ -1,0 +1,17 @@
+// What is the Big O of the below function? (Hint, you may want to go line by line)
+function funChallenge(input) {
+  let a = 10; //O(1)--> running once
+  a = 50 + 3; //O(1)
+
+  for (let i = 0; i < input.length; i++) { //O(n)
+    anotherFunction(); //0(n) -->depends on i, input of loop
+    let stranger = true; //O(n) --> runs as the number of times acc to loop
+    a++; //O(n)--> depends on input of loop
+  }
+  return a; //O(1)
+}
+
+funChallenge();
+
+// 3 constant + 4 linear time
+//BIG O (3 + 4n), which later gets simplified to O(n)

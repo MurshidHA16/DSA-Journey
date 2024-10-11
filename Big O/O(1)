@@ -1,0 +1,14 @@
+const boxes= [1,2,3,4,5]
+
+function FirstTwoBoxes(array){
+    console.log(array[0]); //O(1)
+    console.log(array[1]); //O(1)
+
+
+}
+
+FirstTwoBoxes(boxes) // O(2)
+
+//No matter the number of inputs,
+//the number of operations will remain same
+//(a shift of the line upwards or downwards)
