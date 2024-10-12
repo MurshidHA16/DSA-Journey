@@ -1,0 +1,21 @@
+//Create a function that reverses a string;
+
+//input = 'Hi hello'
+//output = 'olleh iH'
+
+function reverse(str){
+    //check input
+    if (!str || str.length<2 || typeof str != 'string'){
+        return 'Not working'
+    }
+
+    const backwards = []
+    const totalItems = str.length -1;
+    for (let i=str.length; i =0; i--){
+        backwards.push(str[i]);
+    }
+    return backwards.join('');
+
+}
+
+reverse('Hi My name is Murshid')
